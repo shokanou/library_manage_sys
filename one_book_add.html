@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>Add one book</title>
+</head>
+<body>
+	<h1><font face="Candara"><center>Add one book</center></font></h1>
+	<br>
+	<form action="one_book_add1.php" method= "post">
+		<table border=0>
+			<tr>
+				<td>Book_number</td>
+				<td><input type=text name=book_number maxlength=13 size=13><br></td>
+			</tr>
+			<tr>
+				<td>Category</td>
+				<td><select name="category">
+					<option value="science">Science
+					<option value="art">Art
+					<option value="politics">Politics
+					<option value="history">History
+					<option value="other">Other
+					</select><br>
+				</td>
+			</tr>
+			<tr>
+				<td>Title</td>
+				<td><input type=text name=title maxlength=30 size=30><br></td>
+			</tr>
+			<tr>
+				<td>Publisher</td>
+				<td><input type=text name=publisher maxlength=60 size=60><br></td>
+			</tr>
+			<tr>
+				<td>Published Year</td>
+				<td><input type=text name=pub_year maxlength=4 size=4><br></td>
+			</tr>
+			<tr>
+				<td>Author</td>
+				<td><input type=text name=author maxlength=30 size=30><br></td>
+			</tr>
+			<tr>
+				<td>Price$</td>
+				<td><input type=text name=price maxlength=10 size=10><br></td>
+			</tr>
+			<tr>
+				<td colspan=2><input type=submit value="Register"></td>
+			</tr>
+		</table>
+		<br>
+        <a href="/library_management_system/add_book.html"><center>Back</center></a>
+
+</body>
+</html>
